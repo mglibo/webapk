@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Contact</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Contact">
+		<meta name="keywords" content="gaming, Zagreb, contact, Hrvatska">
+		<meta name="author" content="Mateo Glibo">
+		<link rel="stylesheet" href="stil.css">
+	</head>
+<body>
+ <header>
+ <button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+	<header>
+		<nav>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="newspage.html">News</a></li>
+    <li><a href="contact.html">Contact</a></li>
+	<li><a href="gallery.html">Gallery</a></li>
+	<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+	<h3>Možete nas pronaći na adresi:<h3>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89171.74518560112!2d15.996806149320488!3d45.698656901634564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4766876780b60347%3A0x400ad50862bb790!2sVelika+Gorica%2C+Croatia!5e0!3m2!1sen!2spl!4v1548240721508" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	
+	<form id="form" name="form" method="POST">
+	<br>
+				<label for="fname">Ime</label>
+				<input type="text" id="name" name="firstname" placeholder="Unesi svoje ime ovdje" required>
+
+				<label for="lname">Prezime</label>
+				<input type="text" id="lname" name="lastname" placeholder="Unesi svoje prezime ovdje" required>
+				
+				<label for="lname">E-mail</label>
+				<input type="email" id="email" name="email" placeholder="Unesi svoj email ovdje" required>
+
+				<label for="country">Država</label>
+				<select id="country" name="country">
+				  <option value="">Odaberi</option>
+				  <option value="BG">Bugarska</option>
+				  <option value="HR" selected>Hrvatska</option>
+				  <option value="DE">Njemačka</option>
+				  <option value="EN">Engleska</option>
+				  <option value="BR">Brazil</option>
+				  <option value="US">SAD</option>
+				</select>
+
+				<label for="subject">Poruka</label>
+				<textarea id="subject" name="subject" placeholder="Ukoliko imate poruku za nas, napišite je ovdje" style="height:150px"></textarea>
+
+				<input type="submit" value="Posašljite">
+			</form>
+		</div>
+	
+		<div class="footer">
+			<p> Copyright © Mateo Glibo</p>
+		</div>
+		
+
+	</main>
+	
+</body>
+</html>
